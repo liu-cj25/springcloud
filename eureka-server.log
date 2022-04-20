@@ -1,0 +1,192 @@
+2022-03-30 09:41:48.713  INFO 19416 --- [main] com.lcj.EruekaServerApplication          : No active profile set, falling back to default profiles: default
+2022-03-30 09:41:49.536  WARN 19416 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2022-03-30 09:41:49.798  INFO 19416 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=17ed9589-a635-3908-abc3-035f6984db09
+2022-03-30 09:41:49.888  INFO 19416 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$e2645beb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-30 09:41:50.203  INFO 19416 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 1111 (http)
+2022-03-30 09:41:50.234  INFO 19416 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-30 09:41:50.234  INFO 19416 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2022-03-30 09:41:50.241  INFO 19416 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+2022-03-30 09:41:50.242  INFO 19416 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2022-03-30 09:41:50.243  INFO 19416 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-03-30 09:41:50.247  INFO 19416 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2022-03-30 09:41:50.405  INFO 19416 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-30 09:41:50.405  INFO 19416 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1671 ms
+2022-03-30 09:41:50.533  WARN 19416 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-03-30 09:41:50.533  INFO 19416 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-03-30 09:41:50.547  INFO 19416 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@760487aa
+2022-03-30 09:41:51.449  INFO 19416 --- [main] c.s.j.s.i.a.WebApplicationImpl           : Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2022-03-30 09:41:51.536  INFO 19416 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2022-03-30 09:41:51.537  INFO 19416 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2022-03-30 09:41:51.700  INFO 19416 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2022-03-30 09:41:51.700  INFO 19416 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2022-03-30 09:41:52.169  WARN 19416 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-03-30 09:41:52.169  INFO 19416 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-03-30 09:41:52.366  INFO 19416 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-30 09:41:52.999  INFO 19416 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-03-30 09:41:53.050  INFO 19416 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-03-30 09:41:53.050  INFO 19416 --- [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2022-03-30 09:41:53.062  INFO 19416 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1648604513060 with initial instances count: 0
+2022-03-30 09:41:53.110  INFO 19416 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2022-03-30 09:41:53.112  WARN 19416 --- [main] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2022-03-30 09:41:53.133  INFO 19416 --- [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2022-03-30 09:41:53.134  INFO 19416 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2022-03-30 09:41:53.144  INFO 19416 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-03-30 09:41:53.235  INFO 19416 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application EUREKA-SERVER with eureka with status UP
+2022-03-30 09:41:53.238  INFO 19416 --- [Thread-23] o.s.c.n.e.server.EurekaServerBootstrap   : Setting the eureka configuration..
+2022-03-30 09:41:53.238  INFO 19416 --- [Thread-23] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka data center value eureka.datacenter is not set, defaulting to default
+2022-03-30 09:41:53.239  INFO 19416 --- [Thread-23] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka environment value eureka.environment is not set, defaulting to test
+2022-03-30 09:41:53.270  INFO 19416 --- [Thread-23] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2022-03-30 09:41:53.271  INFO 19416 --- [Thread-23] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2022-03-30 09:41:53.272  INFO 19416 --- [Thread-23] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2022-03-30 09:41:53.272  INFO 19416 --- [Thread-23] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2022-03-30 09:41:53.272  INFO 19416 --- [Thread-23] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2022-03-30 09:41:53.284  INFO 19416 --- [Thread-23] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2022-03-30 09:41:53.302  INFO 19416 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 1111 (http) with context path ''
+2022-03-30 09:41:53.303  INFO 19416 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 1111
+2022-03-30 09:41:53.304  INFO 19416 --- [main] com.lcj.EruekaServerApplication          : Started EruekaServerApplication in 5.986 seconds (JVM running for 7.477)
+2022-03-30 09:41:53.977  INFO 19416 --- [RMI TCP Connection(3)-10.11.24.250] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-30 09:41:53.977  INFO 19416 --- [RMI TCP Connection(3)-10.11.24.250] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-30 09:41:53.984  INFO 19416 --- [RMI TCP Connection(3)-10.11.24.250] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2022-03-30 09:42:53.286  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-03-30 09:42:56.468  INFO 19416 --- [http-nio-1111-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance VOLUNTEER-CLIENT/JVQHFD2.aqara.local:volunteer-client:9887 with status UP (replication=false)
+2022-03-30 09:43:53.291  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2022-03-30 09:44:00.627  INFO 19416 --- [http-nio-1111-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance VOLUNTEER-CLIENT/JVQHFD2.aqara.local:volunteer-client:9887 with status DOWN (replication=false)
+2022-03-30 09:44:00.656  INFO 19416 --- [http-nio-1111-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance VOLUNTEER-CLIENT/JVQHFD2.aqara.local:volunteer-client:9887 (replication=false)
+2022-03-30 09:44:28.144  INFO 19416 --- [http-nio-1111-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance VOLUNTEER-CLIENT/JVQHFD2.aqara.local:volunteer-client:9887 with status UP (replication=false)
+2022-03-30 09:44:53.306  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 14ms
+2022-03-30 09:44:54.517  INFO 19416 --- [http-nio-1111-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance AQARA-CLIENT/JVQHFD2.aqara.local:aqara-client:9888 with status UP (replication=false)
+2022-03-30 09:45:32.194  INFO 19416 --- [http-nio-1111-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance VOLUNTEER-CLIENT/JVQHFD2.aqara.local:volunteer-client:9887 with status DOWN (replication=false)
+2022-03-30 09:45:32.210  INFO 19416 --- [http-nio-1111-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance VOLUNTEER-CLIENT/JVQHFD2.aqara.local:volunteer-client:9887 (replication=false)
+2022-03-30 09:45:53.319  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 12ms
+2022-03-30 09:46:06.952  INFO 19416 --- [http-nio-1111-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance AQARA-CLIENT/JVQHFD2.aqara.local:aqara-client:9888 with status DOWN (replication=false)
+2022-03-30 09:46:06.974  INFO 19416 --- [http-nio-1111-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance AQARA-CLIENT/JVQHFD2.aqara.local:aqara-client:9888 (replication=false)
+2022-03-30 09:46:18.283  INFO 19416 --- [http-nio-1111-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance VOLUNTEER-CLIENT/JVQHFD2.aqara.local:volunteer-client:9887 with status UP (replication=false)
+2022-03-30 09:46:34.469  INFO 19416 --- [http-nio-1111-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance AQARA-CLIENT/JVQHFD2.aqara.local:aqara-client:9888 with status UP (replication=false)
+2022-03-30 09:46:39.433  INFO 19416 --- [http-nio-1111-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance VOLUNTEER-CLIENT/JVQHFD2.aqara.local:volunteer-client:9887 with status DOWN (replication=false)
+2022-03-30 09:46:39.448  INFO 19416 --- [http-nio-1111-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance VOLUNTEER-CLIENT/JVQHFD2.aqara.local:volunteer-client:9887 (replication=false)
+2022-03-30 09:46:53.333  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 13ms
+2022-03-30 09:47:53.347  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 14ms
+2022-03-30 09:48:11.594  INFO 19416 --- [http-nio-1111-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance AQARA-CLIENT/JVQHFD2.aqara.local:aqara-client:9888 with status DOWN (replication=false)
+2022-03-30 09:48:14.625  INFO 19416 --- [http-nio-1111-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance AQARA-CLIENT/JVQHFD2.aqara.local:aqara-client:9888 (replication=false)
+2022-03-30 09:48:17.825  INFO 19416 --- [http-nio-1111-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance VOLUNTEER-CLIENT/JVQHFD2.aqara.local:volunteer-client:9887 with status UP (replication=false)
+2022-03-30 09:48:41.022  INFO 19416 --- [http-nio-1111-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance AQARA-CLIENT/JVQHFD2.aqara.local:aqara-client:9888 with status UP (replication=false)
+2022-03-30 09:48:53.202  INFO 19416 --- [http-nio-1111-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance AQARA-CLIENT/JVQHFD2.aqara.local:aqara-client:9888 with status UP (replication=false)
+2022-03-30 09:48:53.353  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2022-03-30 09:49:01.393  INFO 19416 --- [http-nio-1111-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance VOLUNTEER-CLIENT/JVQHFD2.aqara.local:volunteer-client:9887 with status DOWN (replication=false)
+2022-03-30 09:49:01.408  INFO 19416 --- [http-nio-1111-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance VOLUNTEER-CLIENT/JVQHFD2.aqara.local:volunteer-client:9887 (replication=false)
+2022-03-30 09:49:53.372  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 18ms
+2022-03-30 09:50:53.385  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 12ms
+2022-03-30 09:51:53.122  WARN 19416 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2022-03-30 09:51:53.390  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2022-03-30 09:52:53.402  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 11ms
+2022-03-30 09:53:53.411  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 8ms
+2022-03-30 09:54:53.418  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 6ms
+2022-03-30 09:55:53.419  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-03-30 09:56:53.144  INFO 19416 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 3
+2022-03-30 09:56:53.425  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2022-03-30 09:57:53.425  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-03-30 09:58:53.440  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 15ms
+2022-03-30 09:59:53.449  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 7ms
+2022-03-30 10:00:53.460  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 11ms
+2022-03-30 10:01:53.137  WARN 19416 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2022-03-30 10:01:53.463  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2022-03-30 10:02:53.479  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 14ms
+2022-03-30 10:03:53.487  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 7ms
+2022-03-30 10:04:53.494  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 6ms
+2022-03-30 10:05:53.502  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 7ms
+2022-03-30 10:06:53.514  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 12ms
+2022-03-30 10:07:53.516  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2022-03-30 10:08:53.517  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2022-03-30 10:09:53.524  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 6ms
+2022-03-30 10:10:53.537  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 12ms
+2022-03-30 10:11:53.149  INFO 19416 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 3
+2022-03-30 10:11:53.149  WARN 19416 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2022-03-30 10:11:53.538  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2022-03-30 10:12:53.551  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 12ms
+2022-03-30 10:13:53.552  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-03-30 10:14:53.566  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 12ms
+2022-03-30 10:15:53.581  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 15ms
+2022-03-30 10:16:53.589  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 7ms
+2022-03-30 10:17:53.592  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2022-03-30 10:18:53.600  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 6ms
+2022-03-30 10:19:53.615  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 15ms
+2022-03-30 10:20:53.623  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 7ms
+2022-03-30 10:21:53.161  WARN 19416 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2022-03-30 10:21:53.628  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2022-03-30 10:22:53.629  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2022-03-30 10:23:53.643  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 12ms
+2022-03-30 10:24:53.647  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2022-03-30 10:25:53.650  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2022-03-30 10:26:53.166  INFO 19416 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 3
+2022-03-30 10:26:53.652  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2022-03-30 10:27:53.659  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 6ms
+2022-03-30 10:28:53.670  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 10ms
+2022-03-30 10:29:53.684  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 14ms
+2022-03-30 10:30:53.693  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 8ms
+2022-03-30 10:31:53.178  WARN 19416 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2022-03-30 10:31:53.707  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 14ms
+2022-03-30 10:32:53.713  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2022-03-30 10:33:53.719  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2022-03-30 10:34:53.722  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2022-03-30 10:35:53.736  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 14ms
+2022-03-30 10:36:53.739  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2022-03-30 10:37:53.741  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2022-03-30 10:38:53.742  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2022-03-30 10:39:53.747  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2022-03-30 10:40:53.747  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-03-30 10:41:53.172  INFO 19416 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 3
+2022-03-30 10:41:53.188  WARN 19416 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2022-03-30 10:41:53.750  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2022-03-30 10:42:53.756  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 6ms
+2022-03-30 10:43:53.768  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 12ms
+2022-03-30 10:44:53.769  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2022-03-30 10:45:53.779  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 9ms
+2022-03-30 10:46:53.794  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 14ms
+2022-03-30 10:47:53.809  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 13ms
+2022-03-30 10:48:53.819  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 8ms
+2022-03-30 10:49:53.826  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 6ms
+2022-03-30 10:50:53.840  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 12ms
+2022-03-30 10:51:53.203  WARN 19416 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2022-03-30 10:51:53.842  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2022-03-30 10:52:53.850  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 6ms
+2022-03-30 10:53:53.863  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 12ms
+2022-03-30 10:54:53.878  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 13ms
+2022-03-30 10:55:53.885  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2022-03-30 10:56:53.187  INFO 19416 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 3
+2022-03-30 10:56:53.892  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 6ms
+2022-03-30 10:57:53.896  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2022-03-30 10:58:53.908  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 11ms
+2022-03-30 10:59:53.921  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 11ms
+2022-03-30 11:00:53.930  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 8ms
+2022-03-30 11:01:53.218  WARN 19416 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2022-03-30 11:01:53.936  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2022-03-30 11:02:53.945  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 8ms
+2022-03-30 11:03:53.949  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2022-03-30 11:04:53.952  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2022-03-30 11:05:53.957  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2022-03-30 11:06:53.972  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 13ms
+2022-03-30 11:07:53.975  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2022-03-30 11:08:53.977  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2022-03-30 11:09:53.990  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 11ms
+2022-03-30 11:10:54.003  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 11ms
+2022-03-30 11:11:53.211  INFO 19416 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 3
+2022-03-30 11:11:53.241  WARN 19416 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2022-03-30 11:11:54.010  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 6ms
+2022-03-30 11:12:54.026  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 15ms
+2022-03-30 11:13:54.039  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 12ms
+2022-03-30 11:14:54.042  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2022-03-30 11:15:54.056  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 13ms
+2022-03-30 11:16:54.069  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 13ms
+2022-03-30 11:17:54.077  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 6ms
+2022-03-30 11:18:54.090  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 12ms
+2022-03-30 11:19:54.093  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2022-03-30 11:20:54.096  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2022-03-30 11:21:53.258  WARN 19416 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2022-03-30 11:21:54.102  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2022-03-30 11:22:54.113  INFO 19416 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 10ms
+2022-03-30 11:23:51.661  INFO 19416 --- [Thread-25] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application EUREKA-SERVER with eureka with status DOWN
+2022-03-30 11:23:51.701  INFO 19416 --- [Thread-25] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2022-03-30 11:23:51.709  INFO 19416 --- [Thread-25] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2022-03-30 11:23:51.717  INFO 19416 --- [Thread-25] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-30 11:23:51.729  INFO 19416 --- [Thread-25] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-03-30 11:23:51.729  INFO 19416 --- [Thread-25] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient

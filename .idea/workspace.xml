@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="03222dcd-7cf1-4d98-af23-ac50cae70122" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\soft\apache-maven-3.8.1-bin\apache-maven-3.8.1\conf" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../soft/apache-maven-3.8.1-bin/apache-maven-3.8.1" />
+        <option name="userSettingsFile" value="D:\soft\apache-maven-3.8.1-bin\apache-maven-3.8.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="22uRAsurJJ3SK8l9JbR9FJeYdYU" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/tree_test-master" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lcj.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\lvmiproject\cloud-server\aqara-client\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.AqaraApplication">
+    <configuration name="AqaraApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="aqara-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lcj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lcj.AqaraApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="erueka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lcj.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EruekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="erueka-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lcj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lcj.EruekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VolunteerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="volunteer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lcj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lcj.VolunteerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="volunteer9999" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="volunteer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lcj.VolunteerApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=9999 -Deureka.client.serviceUrl.defaultZone=http://127.0.0.1:1111/eureka -Dspring.application.name=volunteer-client" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.DemoApplication" />
+      <item itemvalue="Spring Boot.volunteer9999" />
+      <item itemvalue="Spring Boot.AqaraApplication" />
+      <item itemvalue="Spring Boot.EruekaServerApplication" />
+      <item itemvalue="Spring Boot.VolunteerApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.AqaraApplication" />
+        <item itemvalue="Spring Boot.VolunteerApplication" />
+        <item itemvalue="Spring Boot.EruekaServerApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="03222dcd-7cf1-4d98-af23-ac50cae70122" name="Default Changelist" comment="" />
+      <created>1640685345475</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1640685345475</updated>
+      <workItem from="1640685346752" duration="7743000" />
+      <workItem from="1640759314045" duration="9985000" />
+      <workItem from="1642391805061" duration="115000" />
+      <workItem from="1642392306537" duration="354000" />
+      <workItem from="1642411472236" duration="20000" />
+      <workItem from="1648454276172" duration="3889000" />
+      <workItem from="1648604438076" duration="7696000" />
+      <workItem from="1650244375750" duration="7510000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1506" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1648458111444">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1506" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1648458111444" />
+    <state x="-1155" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1648604484850">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1155" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1648604484850" />
+    <state width="1317" height="537" key="GridCell.Tab.0.bottom" timestamp="1650335585287">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1274" height="310" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1648775559291" />
+    <state width="1317" height="537" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1650335585287" />
+    <state width="1317" height="537" key="GridCell.Tab.0.center" timestamp="1650335585287">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1274" height="310" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1648775559291" />
+    <state width="1317" height="537" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1650335585287" />
+    <state width="1317" height="537" key="GridCell.Tab.0.left" timestamp="1650335585286">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1274" height="310" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1648775559291" />
+    <state width="1317" height="537" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1650335585286" />
+    <state width="1317" height="537" key="GridCell.Tab.0.right" timestamp="1650335585287">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1274" height="310" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1648775559291" />
+    <state width="1317" height="537" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1650335585287" />
+    <state width="1317" height="537" key="GridCell.Tab.1.bottom" timestamp="1650335585287">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1274" height="310" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1648775559291" />
+    <state width="1317" height="537" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1650335585287" />
+    <state width="1317" height="537" key="GridCell.Tab.1.center" timestamp="1650335585287">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1274" height="310" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1648775559291" />
+    <state width="1317" height="537" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1650335585287" />
+    <state width="1317" height="537" key="GridCell.Tab.1.left" timestamp="1650335585287">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1274" height="310" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1648775559291" />
+    <state width="1317" height="537" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1650335585287" />
+    <state width="1317" height="537" key="GridCell.Tab.1.right" timestamp="1650335585287">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1274" height="310" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1648775559291" />
+    <state width="1317" height="537" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1650335585287" />
+    <state width="1317" height="537" key="GridCell.Tab.2.bottom" timestamp="1650335585288">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1189" height="310" key="GridCell.Tab.2.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1648775559281" />
+    <state width="1317" height="537" key="GridCell.Tab.2.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1650335585288" />
+    <state width="1317" height="537" key="GridCell.Tab.2.center" timestamp="1650335585288">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1189" height="310" key="GridCell.Tab.2.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1648775559281" />
+    <state width="1317" height="537" key="GridCell.Tab.2.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1650335585288" />
+    <state width="1317" height="537" key="GridCell.Tab.2.left" timestamp="1650335585288">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1189" height="310" key="GridCell.Tab.2.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1648775559281" />
+    <state width="1317" height="537" key="GridCell.Tab.2.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1650335585288" />
+    <state width="1317" height="537" key="GridCell.Tab.2.right" timestamp="1650335585288">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1189" height="310" key="GridCell.Tab.2.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1648775559281" />
+    <state width="1317" height="537" key="GridCell.Tab.2.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1650335585288" />
+  </component>
+</project>
